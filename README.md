@@ -31,18 +31,6 @@ matching the Code availability statement in the manuscript. The release will car
 configuration, the pre-registered experiment protocols, the single evaluator behind every reported
 table, and the pre-run integrity gates.
 
-Please cite a release tag or commit rather than the default branch, so that the settings stay pinned
-to the reported experiments.
-
-## Licence
-
-The code written for this project is MIT licensed; see `LICENSE`.
-
-The release will additionally carry Meta Platforms' DINOv3 and SAM 3 source, which the method
-imports directly. Those directories stay under Meta's own licences rather than MIT, and the release
-will ship a `NOTICE` file recording that scope split alongside the full third-party inventory. No
-model weights are distributed in either stage.
-
 ## Citation
 
 ```bibtex
